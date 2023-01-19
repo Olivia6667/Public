@@ -7,10 +7,17 @@ while person <= tickets:
         print('Билет бесплатный')
     elif 25 > age_for_ticket >= 18:
         cash += 990
+<<<<<<< HEAD
         print("Стоимость билета: 990 рублей")
     else:
         cash += 1390
         print("Стоимость билета: 1390 рублей")
+=======
+            print(f"Стоимость билета: {cash} рублей")
+    else:
+        cash += 1390
+        print(f"Стоимость билета: {cash} рублей")
+>>>>>>> parent of bee4150 (Update Tickets 13.8.19.py)
     person += 1
     if tickets > 3:
         sale = cash - ((cash/100) * 10)
