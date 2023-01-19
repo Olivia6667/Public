@@ -10,7 +10,6 @@ while person <= tickets:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
         print("Стоимость билета: 990 рублей")
     else:
         cash += 1390
@@ -33,12 +32,6 @@ while person <= tickets:
         cash += 1390
         print("Стоимость билета: 1390 рублей")
 >>>>>>> parent of f5b76fe (Update Tickets 13.8.19.py)
-=======
-            print(f"Стоимость билета: {cash} рублей")
-    else:
-        cash += 1390
-        print(f"Стоимость билета: {cash} рублей")
->>>>>>> parent of bee4150 (Update Tickets 13.8.19.py)
     person += 1
     if tickets > 3:
         sale = cash - ((cash/100) * 10)
