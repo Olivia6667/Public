@@ -7,10 +7,10 @@ while person <= tickets:
         print('Билет бесплатный')
     elif 25 > age_for_ticket >= 18:
         cash += 990
-            print(f"Стоимость билета: {cash} рублей")
+            print(f'Стоимость билета: {cash} рублей')
     else:
         cash += 1390
-        print(f"Стоимость билета: {cash} рублей")
+        print(f'Стоимость билета: {cash} рублей')
     person += 1
     if tickets > 3:
         sale = cash - ((cash/100) * 10)
